@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Bai2"
+    targetNamespace="http://tempuri.org/Bai2.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Bai2.xsd"
+    xmlns:mstns="http://tempuri.org/Bai2.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<!--Ràng buộc mã hàng-->
+	<xs:simpleType name="maType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"></xs:minLength>
+			<xs:maxLength value="6"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Ràng buộc đơn giá-->
+	<xs:simpleType name="giaType">
+		<xs:restriction base="xs:decimal">
+			<xs:minExclusive value="0"></xs:minExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Ràng buộc đơn vị tính-->
+	<xs:simpleType name="dvType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Gói"></xs:enumeration>
+			<xs:enumeration value="Hộp"></xs:enumeration>
+			<xs:enumeration value="Chiếc"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="mathangType">
+		<xs:sequence>
+			<xs:element name="DonGia" type="giaType"></xs:element>
+			<xs:element name="DonViTinh" type="dvType"></xs:element>
+			<xs:element name="SoLuong"></xs:element>
+			<xs:element name="TenHang"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaHang" type="maType" use="required"></xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="LoaiHangType">
+		<xs:sequence>
+			<xs:element name="Hang" type="mathangType" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaLoai"></xs:attribute>
+		<xs:attribute name="TenLoai"></xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="HoaDonType">
+		<xs:sequence>
+			<xs:element name="MaHD" type="maType"></xs:element>
+			<xs:element name="NgayBan"></xs:element>
+			<xs:element name="LoaiHang" type="LoaiHangType" maxOccurs="10"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:element name="DSHD">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="HoaDon" type="HoaDonType" maxOccurs="4"></xs:element>
+			</xs:sequence>
+		</xs:complexType>		
+	</xs:element>
+</xs:schema>

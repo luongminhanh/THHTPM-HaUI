@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QLSV xmlns="http://tempuri.org/XMLSchema1.xsd">
+	<sinhvien masv="2021303456">
+		<hoten>Nguyễn Văn A</hoten>
+		<ngaysinh>1996-02-01</ngaysinh>
+		<gioitinh>Nam</gioitinh>
+		<que>Hà Nội</que>
+		<trinhdo>Đại học</trinhdo>
+		<hesodiem>8.59</hesodiem>
+	</sinhvien>
+	<sinhvien masv="2021309099">
+		<hoten>Nguyễn Thị B</hoten>
+		<ngaysinh>1997-02-01</ngaysinh>
+		<gioitinh>Nữ</gioitinh>
+		<que>Hà Giang</que>
+		<trinhdo>Cao đẳng</trinhdo>
+		<hesodiem>9.1</hesodiem>
+	</sinhvien>
+</QLSV>

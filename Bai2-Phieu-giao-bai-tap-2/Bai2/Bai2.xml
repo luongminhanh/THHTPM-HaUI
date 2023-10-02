@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DSHD xmlns="http://tempuri.org/Bai2.xsd">
+	<HoaDon>
+		<MaHD>HD1</MaHD>
+		<NgayBan>2023-9-18</NgayBan>
+		<LoaiHang MaLoai="A" TenLoai="Điện tử">
+			<Hang MaHang="H1">
+				<DonGia>6000000</DonGia>
+				<DonViTinh>Chiếc</DonViTinh>
+				<SoLuong>60</SoLuong>
+				<TenHang>Ti Vi</TenHang>
+			</Hang>
+			<Hang MaHang="H2">
+				<DonGia>6000000</DonGia>
+				<DonViTinh>Chiếc</DonViTinh>
+				<SoLuong>80</SoLuong>
+				<TenHang>Tủ lạnh</TenHang>
+			</Hang>
+			<Hang MaHang="H3">
+				<DonGia>6000000</DonGia>
+				<DonViTinh>Chiếc</DonViTinh>
+				<SoLuong>80</SoLuong>
+				<TenHang>Tủ lạnh</TenHang>
+			</Hang>
+		</LoaiHang>
+		<LoaiHang MaLoai="B" TenLoai="Điện lạnh">
+			<Hang MaHang="H1">
+				<DonGia>6000000</DonGia>
+				<DonViTinh>Chiếc</DonViTinh>
+				<SoLuong>60</SoLuong>
+				<TenHang>Ti Vi</TenHang>
+			</Hang>
+			<Hang MaHang="H2">
+				<DonGia>6000000</DonGia>
+				<DonViTinh>Chiếc</DonViTinh>
+				<SoLuong>80</SoLuong>
+				<TenHang>Tủ lạnh</TenHang>
+			</Hang>
+			<Hang MaHang="H3">
+				<DonGia>6000000</DonGia>
+				<DonViTinh>Chiếc</DonViTinh>
+				<SoLuong>80</SoLuong>
+				<TenHang>Tủ lạnh</TenHang>
+			</Hang>
+		</LoaiHang>
+	</HoaDon>
+	<HoaDon>
+		<MaHD>HD1</MaHD>
+		<NgayBan>2023-9-18</NgayBan>
+		<LoaiHang MaLoai="A" TenLoai="Điện tử">
+			<Hang MaHang="H1">
+				<DonGia>6000000</DonGia>
+				<DonViTinh>Chiếc</DonViTinh>
+				<SoLuong>60</SoLuong>
+				<TenHang>Ti Vi</TenHang>
+			</Hang>
+			<Hang MaHang="H2">
+				<DonGia>6000000</DonGia>
+				<DonViTinh>Chiếc</DonViTinh>
+				<SoLuong>80</SoLuong>
+				<TenHang>Tủ lạnh</TenHang>
+			</Hang>
+			<Hang MaHang="H3">
+				<DonGia>6000000</DonGia>
+				<DonViTinh>Chiếc</DonViTinh>
+				<SoLuong>80</SoLuong>
+				<TenHang>Tủ lạnh</TenHang>
+			</Hang>
+		</LoaiHang>
+		<LoaiHang MaLoai="B" TenLoai="Điện lạnh">
+			<Hang MaHang="H1">
+				<DonGia>6000000</DonGia>
+				<DonViTinh>Chiếc</DonViTinh>
+				<SoLuong>60</SoLuong>
+				<TenHang>Ti Vi</TenHang>
+			</Hang>
+			<Hang MaHang="H2">
+				<DonGia>6000000</DonGia>
+				<DonViTinh>Chiếc</DonViTinh>
+				<SoLuong>80</SoLuong>
+				<TenHang>Tủ lạnh</TenHang>
+			</Hang>
+			<Hang MaHang="H3">
+				<DonGia>6000000</DonGia>
+				<DonViTinh>Chiếc</DonViTinh>
+				<SoLuong>80</SoLuong>
+				<TenHang>Tủ lạnh</TenHang>
+			</Hang>
+		</LoaiHang>
+	</HoaDon>
+</DSHD>
