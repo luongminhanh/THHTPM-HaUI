@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DangKyNghi"
+    targetNamespace="http://tempuri.org/DangKyNghi.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/DangKyNghi.xsd"
+    xmlns:mstns="http://tempuri.org/DangKyNghi.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="codeType">
+		<xs:restriction base="xs:ID">
+			<xs:length value="5"></xs:length>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="reasonType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="P|O|TS"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="statusType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="Chờ phê duyệt|Đã phê duyệt|Không được phê duyệt"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="employeeType">
+		<xs:sequence>
+			<xs:element name="LyDo" type="reasonType"></xs:element>
+			<xs:element name="DonVi" type="xs:decimal"></xs:element>
+			<xs:element name="TrangThai" type="statusType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaNV" type="codeType"></xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="workdayType">
+		<xs:sequence>
+			<xs:element name="NhanVien" type="employeeType" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="Ngay" type="xs:date"></xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="registerType">
+		<xs:sequence>
+			<xs:element name="NgayLamViec" type="workdayType" maxOccurs="31"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="Loai" type="xs:string"></xs:attribute>
+	</xs:complexType>
+	<xs:element name="DangKy" type="registerType"></xs:element>
+</xs:schema>

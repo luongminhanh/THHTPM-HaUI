@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DangKyNghi"
+    targetNamespace="http://tempuri.org/DangKyNghi.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/DangKyNghi.xsd"
+    xmlns:mstns="http://tempuri.org/DangKyNghi.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="maType">
+		<xs:restriction base="xs:ID">
+			<xs:length value="5"></xs:length>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="lydoType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="P|O|TS"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="trangthaiType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="Đã phê duyệt|Chờ phê duyệt|Không được phê duyệt"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="dviType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]+|[0-9]+\.[05]"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="nvType">
+		<xs:sequence>
+			<xs:element name="LyDo" type="lydoType"></xs:element>
+			<xs:element name="DonVi" type="dviType"></xs:element>
+			<xs:element name="TrangThai" type="trangthaiType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaNV" type="maType" use="required"></xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ngaylvType">
+		<xs:sequence>
+			<xs:element name="NhanVien" type="nvType" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="Ngay" type="xs:date" use="required"></xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="dangkyType">
+		<xs:sequence>
+			<xs:element name="NgayLamViec" type="ngaylvType" maxOccurs="31"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="Loai" type="xs:string" use="required"></xs:attribute>
+	</xs:complexType>
+	<xs:element name="DangKy" type="dangkyType"></xs:element>
+</xs:schema>

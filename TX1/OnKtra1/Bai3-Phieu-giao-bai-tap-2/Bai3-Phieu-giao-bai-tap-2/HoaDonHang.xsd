@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HoaDonHang"
+    targetNamespace="http://tempuri.org/HoaDonHang.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/HoaDonHang.xsd"
+    xmlns:mstns="http://tempuri.org/HoaDonHang.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<!--mã số hồ sơ bệnh nhân-->
+	<xs:simpleType name="maType">
+		<xs:restriction base="xs:ID">
+			<xs:minLength value="1"></xs:minLength>
+			<xs:maxLength value="6"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--ten khoa, ten truong khoa, phong dieu tri-->
+	<xs:simpleType name="tenType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"></xs:minLength>
+			<xs:maxLength value="50"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--dia chi-->
+	<xs:simpleType name="diachiType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="5"></xs:minLength>
+			<xs:maxLength value="70"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--sdt-->
+	<xs:simpleType name="sdtType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{10}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--ngay nhap vien-->
+	<xs:simpleType name="ngayType">
+		<xs:restriction base="xs:date">
+			<xs:minExclusive value="2000-01-01"></xs:minExclusive>
+			<xs:maxExclusive value="2023-02-10"></xs:maxExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="benhnhanType">
+		<xs:sequence>
+			<xs:element name="hoten" type="tenType"></xs:element>
+			<xs:element name="diachi" type="diachiType"></xs:element>
+			<xs:element name="sdt" type="sdtType"></xs:element>
+			<xs:element name="ngaynhap" type="ngayType"></xs:element>
+			<xs:element name="songaynam" type="xs:int"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="maBN" type="maType" use="required"></xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="dsbnType">
+		<xs:sequence>
+			<xs:element name="benhnhan" type="benhnhanType" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="khoaType">
+		<xs:sequence>
+			<xs:element name="truongkhoa" type="tenType"></xs:element>
+			<xs:element name="tenkhoa" type="tenType"></xs:element>
+			<xs:element name="DSBN" type="dsbnType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="DSKhoa">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="khoa" type="khoaType" maxOccurs="unbounded"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+

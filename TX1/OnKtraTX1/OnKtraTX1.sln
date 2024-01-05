@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnKtraTX1", "OnKtraTX1\OnKtraTX1.csproj", "{DC8C129D-F59F-454A-B1D1-B2674D4CDAF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnTapTX1_1", "OnTapTX1_1\OnTapTX1_1.csproj", "{9D00235F-1056-4265-A69B-02ABAD827C8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnTapTX1_2", "OnTapTX1_2\OnTapTX1_2.csproj", "{95B5FC5F-E148-48EA-94BA-068BB905DCC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC8C129D-F59F-454A-B1D1-B2674D4CDAF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8C129D-F59F-454A-B1D1-B2674D4CDAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8C129D-F59F-454A-B1D1-B2674D4CDAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8C129D-F59F-454A-B1D1-B2674D4CDAF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D00235F-1056-4265-A69B-02ABAD827C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D00235F-1056-4265-A69B-02ABAD827C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D00235F-1056-4265-A69B-02ABAD827C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D00235F-1056-4265-A69B-02ABAD827C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B5FC5F-E148-48EA-94BA-068BB905DCC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B5FC5F-E148-48EA-94BA-068BB905DCC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B5FC5F-E148-48EA-94BA-068BB905DCC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B5FC5F-E148-48EA-94BA-068BB905DCC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05CE6E3F-FF32-4739-9A8C-C6C9DA8C2D94}
+	EndGlobalSection
+EndGlobal

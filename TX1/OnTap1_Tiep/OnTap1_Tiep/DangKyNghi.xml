@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="DangKyNghi.xslt"?>
+<DangKy Loai="Loai1" xmlns="http://tempuri.org/DangKyNghi.xsd">
+	<NgayLamViec Ngay="1900-01-01">
+		<NhanVien MaNV="ID__1">
+			<LyDo>P</LyDo>
+			<DonVi>0.5</DonVi>
+			<TrangThai>Đã phê duyệt</TrangThai>
+		</NhanVien>
+		<NhanVien MaNV="ID__2">
+			<LyDo>P</LyDo>
+			<DonVi>0.5</DonVi>
+			<TrangThai>Chờ phê duyệt</TrangThai>
+		</NhanVien>
+		<NhanVien MaNV="ID__3">
+			<LyDo>P</LyDo>
+			<DonVi>0.5</DonVi>
+			<TrangThai>Chờ phê duyệt</TrangThai>
+		</NhanVien>
+	</NgayLamViec>
+	<NgayLamViec Ngay="0001-01-01">
+		<NhanVien MaNV="ID__4">
+			<LyDo>P</LyDo>
+			<DonVi>1</DonVi>
+			<TrangThai>Chờ phê duyệt</TrangThai>
+		</NhanVien>
+		<NhanVien MaNV="ID__5">
+			<LyDo>P</LyDo>
+			<DonVi>2</DonVi>
+			<TrangThai>Chờ phê duyệt</TrangThai>
+		</NhanVien>
+		<NhanVien MaNV="ID__6">
+			<LyDo>P</LyDo>
+			<DonVi>2</DonVi>
+			<TrangThai>Chờ phê duyệt</TrangThai>
+		</NhanVien>
+	</NgayLamViec>
+</DangKy>

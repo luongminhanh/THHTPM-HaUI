@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<danhsachkhachhang>
+	<khachhang makh="111111" chinhanh="HaNoi">
+		<hoten>Nguyên A</hoten>
+		<diachi>Hồ Chí Minh</diachi>
+		<sodt>09875676</sodt>
+	</khachhang>
+	<khachhang makh="222222" chinhanh="HCM">
+		<hoten>Nguyên B</hoten>
+		<diachi>Bắc Há</diachi>
+		<sodt>05654236</sodt>
+	</khachhang>
+	<khachhang makh="333333" chinhanh="NamBinh">
+		<hoten>Nguyên C</hoten>
+		<diachi>Pác Bó</diachi>
+		<sodt>08569241</sodt>
+	</khachhang>
+</danhsachkhachhang>

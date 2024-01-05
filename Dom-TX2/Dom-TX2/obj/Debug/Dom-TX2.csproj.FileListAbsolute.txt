@@ -1,0 +1,10 @@
+E:\Tích hợp hệ thống phần mềm\Dom-TX2\Dom-TX2\bin\Debug\Dom-TX2.exe.config
+E:\Tích hợp hệ thống phần mềm\Dom-TX2\Dom-TX2\bin\Debug\Dom-TX2.exe
+E:\Tích hợp hệ thống phần mềm\Dom-TX2\Dom-TX2\bin\Debug\Dom-TX2.pdb
+E:\Tích hợp hệ thống phần mềm\Dom-TX2\Dom-TX2\obj\Debug\Dom-TX2.csproj.AssemblyReference.cache
+E:\Tích hợp hệ thống phần mềm\Dom-TX2\Dom-TX2\obj\Debug\Dom_TX2.Form1.resources
+E:\Tích hợp hệ thống phần mềm\Dom-TX2\Dom-TX2\obj\Debug\Dom_TX2.Properties.Resources.resources
+E:\Tích hợp hệ thống phần mềm\Dom-TX2\Dom-TX2\obj\Debug\Dom-TX2.csproj.GenerateResource.cache
+E:\Tích hợp hệ thống phần mềm\Dom-TX2\Dom-TX2\obj\Debug\Dom-TX2.csproj.CoreCompileInputs.cache
+E:\Tích hợp hệ thống phần mềm\Dom-TX2\Dom-TX2\obj\Debug\Dom-TX2.exe
+E:\Tích hợp hệ thống phần mềm\Dom-TX2\Dom-TX2\obj\Debug\Dom-TX2.pdb

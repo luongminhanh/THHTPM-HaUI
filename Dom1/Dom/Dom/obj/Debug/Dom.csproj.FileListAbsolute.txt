@@ -1,0 +1,10 @@
+E:\Tích hợp hệ thống phần mềm\Dom\Dom\bin\Debug\Dom.exe.config
+E:\Tích hợp hệ thống phần mềm\Dom\Dom\bin\Debug\Dom.exe
+E:\Tích hợp hệ thống phần mềm\Dom\Dom\bin\Debug\Dom.pdb
+E:\Tích hợp hệ thống phần mềm\Dom\Dom\obj\Debug\Dom.csproj.AssemblyReference.cache
+E:\Tích hợp hệ thống phần mềm\Dom\Dom\obj\Debug\Dom.Form1.resources
+E:\Tích hợp hệ thống phần mềm\Dom\Dom\obj\Debug\Dom.Properties.Resources.resources
+E:\Tích hợp hệ thống phần mềm\Dom\Dom\obj\Debug\Dom.csproj.GenerateResource.cache
+E:\Tích hợp hệ thống phần mềm\Dom\Dom\obj\Debug\Dom.csproj.CoreCompileInputs.cache
+E:\Tích hợp hệ thống phần mềm\Dom\Dom\obj\Debug\Dom.exe
+E:\Tích hợp hệ thống phần mềm\Dom\Dom\obj\Debug\Dom.pdb

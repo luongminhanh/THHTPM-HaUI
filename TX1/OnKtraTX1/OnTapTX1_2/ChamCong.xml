@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="ChamCong.xslt"?>
+<ChamCong BoPhan="BoPhan1" xmlns="http://tempuri.org/ChamCong.xsd">
+	<NgayLamViec Ngay="1900-01-01">
+		<NhanVien MaNV="NV001">
+			<CaLamViec>C1</CaLamViec>
+			<GioVao>12 : 03</GioVao>
+			<GioRa>12 : 03</GioRa>
+		</NhanVien>
+		
+		<NhanVien MaNV="NV002">
+			<CaLamViec>C1</CaLamViec>
+			<GioVao>12 : 03</GioVao>
+			<GioRa>12 : 03</GioRa>
+		</NhanVien>
+		<NhanVien MaNV="NV003">
+			<CaLamViec>C1</CaLamViec>
+			<GioVao>12 : 03</GioVao>
+			<GioRa>12 : 03</GioRa>
+		</NhanVien>
+	</NgayLamViec>
+	<NgayLamViec Ngay="0001-01-01">
+		<NhanVien MaNV="NV004">
+			<CaLamViec>C2</CaLamViec>
+			<GioVao>12 : 03</GioVao>
+			<GioRa>12 : 03</GioRa>
+		</NhanVien>
+		<NhanVien MaNV="NV005">
+			<CaLamViec>C1</CaLamViec>
+			<GioVao>12 : 03</GioVao>
+			<GioRa>12 : 03</GioRa>
+		</NhanVien>
+		<NhanVien MaNV="NV006">
+			<CaLamViec>C3</CaLamViec>
+			<GioVao>12 : 03</GioVao>
+			<GioRa>12 : 03</GioRa>
+		</NhanVien>
+	</NgayLamViec>
+</ChamCong>

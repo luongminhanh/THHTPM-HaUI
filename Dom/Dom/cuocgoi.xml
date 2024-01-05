@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<thongtincuocgoi>
+  <cuocgoi chinhanh="123" sodien="Đống Đa">
+    <sogoiden>12344321</sogoiden>
+    <ngaygoi>2023-01-11</ngaygoi>
+    <sophut>20</sophut>
+  </cuocgoi>
+  <cuocgoi chinhanh="55555" sodien="Thanh Xuân">
+    <sogoiden>2229</sogoiden>
+    <ngaygoi>2022-12-02</ngaygoi>
+    <sophut>12</sophut>
+  </cuocgoi>
+  <cuocgoi chinhanh="Thanh Xuân" sodien="55555">
+    <sogoiden>09384374</sogoiden>
+    <ngaygoi>2022-12-02</ngaygoi>
+    <sophut>12</sophut>
+  </cuocgoi>
+  <cuocgoi chinhanh="Thanh Xuân" sodien="55555">
+    <sogoiden>0384384</sogoiden>
+    <ngaygoi>2023-12-02</ngaygoi>
+    <sophut>110</sophut>
+  </cuocgoi>
+  <cuocgoi chinhanh="Thanh Xuân" sodien="55555">
+    <sogoiden>0384384</sogoiden>
+    <ngaygoi>2023-12-02</ngaygoi>
+    <sophut>110</sophut>
+  </cuocgoi>
+</thongtincuocgoi>

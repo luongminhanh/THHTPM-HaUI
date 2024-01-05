@@ -1,0 +1,10 @@
+E:\Tích hợp hệ thống phần mềm\KTHP\RestfulWeb_1\ResfulClient\bin\Debug\ResfulClient.exe.config
+E:\Tích hợp hệ thống phần mềm\KTHP\RestfulWeb_1\ResfulClient\bin\Debug\ResfulClient.exe
+E:\Tích hợp hệ thống phần mềm\KTHP\RestfulWeb_1\ResfulClient\bin\Debug\ResfulClient.pdb
+E:\Tích hợp hệ thống phần mềm\KTHP\RestfulWeb_1\ResfulClient\obj\Debug\ResfulClient.csproj.AssemblyReference.cache
+E:\Tích hợp hệ thống phần mềm\KTHP\RestfulWeb_1\ResfulClient\obj\Debug\ResfulClient.Form1.resources
+E:\Tích hợp hệ thống phần mềm\KTHP\RestfulWeb_1\ResfulClient\obj\Debug\ResfulClient.Properties.Resources.resources
+E:\Tích hợp hệ thống phần mềm\KTHP\RestfulWeb_1\ResfulClient\obj\Debug\ResfulClient.csproj.GenerateResource.cache
+E:\Tích hợp hệ thống phần mềm\KTHP\RestfulWeb_1\ResfulClient\obj\Debug\ResfulClient.csproj.CoreCompileInputs.cache
+E:\Tích hợp hệ thống phần mềm\KTHP\RestfulWeb_1\ResfulClient\obj\Debug\ResfulClient.exe
+E:\Tích hợp hệ thống phần mềm\KTHP\RestfulWeb_1\ResfulClient\obj\Debug\ResfulClient.pdb

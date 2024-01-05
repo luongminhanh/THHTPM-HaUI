@@ -1,0 +1,10 @@
+E:\Tích hợp hệ thống phần mềm\TX2\On\On\bin\Debug\On.exe.config
+E:\Tích hợp hệ thống phần mềm\TX2\On\On\bin\Debug\On.exe
+E:\Tích hợp hệ thống phần mềm\TX2\On\On\bin\Debug\On.pdb
+E:\Tích hợp hệ thống phần mềm\TX2\On\On\obj\Debug\On.csproj.AssemblyReference.cache
+E:\Tích hợp hệ thống phần mềm\TX2\On\On\obj\Debug\On.Form1.resources
+E:\Tích hợp hệ thống phần mềm\TX2\On\On\obj\Debug\On.Properties.Resources.resources
+E:\Tích hợp hệ thống phần mềm\TX2\On\On\obj\Debug\On.csproj.GenerateResource.cache
+E:\Tích hợp hệ thống phần mềm\TX2\On\On\obj\Debug\On.csproj.CoreCompileInputs.cache
+E:\Tích hợp hệ thống phần mềm\TX2\On\On\obj\Debug\On.exe
+E:\Tích hợp hệ thống phần mềm\TX2\On\On\obj\Debug\On.pdb

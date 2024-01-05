@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="HoaDonHang.xslt" ?>
+<BenhVien xmlns="http://tempuri.org/HoaDonHang.xsd">
+	<TenBenhVien>ĐA KHOA</TenBenhVien>
+	<DSKhoa>
+		<Khoa>
+			<TenKhoa>Khoa Mắt</TenKhoa>
+			<TruongKhoa>Trần Văn Thanh</TruongKhoa>
+			<DSBenhNhan>
+				<BenhNhan MaHoSo="BN01">
+					<HoTen>Nguyễn Văn A</HoTen>
+					<DiaChi>Hà Nội</DiaChi>
+					<SoDienThoai>0985678562</SoDienThoai>
+					<NgayNhapVien>2023-01-12</NgayNhapVien>
+					<SoNgayNamVien>10</SoNgayNamVien>
+				</BenhNhan>
+				<BenhNhan MaHoSo="BN02">
+					<HoTen>Nguyễn Văn A</HoTen>
+					<DiaChi>Hà Nội</DiaChi>
+					<SoDienThoai>0985678562</SoDienThoai>
+					<NgayNhapVien>2023-01-12</NgayNhapVien>
+					<SoNgayNamVien>10</SoNgayNamVien>
+				</BenhNhan>
+				<BenhNhan MaHoSo="BN03">
+					<HoTen>Nguyễn Văn A</HoTen>
+					<DiaChi>Hà Nội</DiaChi>
+					<SoDienThoai>0985678562</SoDienThoai>
+					<NgayNhapVien>2023-01-12</NgayNhapVien>
+					<SoNgayNamVien>10</SoNgayNamVien>
+				</BenhNhan>
+			</DSBenhNhan>
+		</Khoa>
+		<Khoa>
+			<TenKhoa>Khoa Mắt</TenKhoa>
+			<TruongKhoa>Trần Văn Thanh</TruongKhoa>
+			<DSBenhNhan>
+				<BenhNhan MaHoSo="BN04">
+					<HoTen>Nguyễn Văn A</HoTen>
+					<DiaChi>Hà Nội</DiaChi>
+					<SoDienThoai>0985678562</SoDienThoai>
+					<NgayNhapVien>2023-01-12</NgayNhapVien>
+					<SoNgayNamVien>10</SoNgayNamVien>
+				</BenhNhan>
+				<BenhNhan MaHoSo="BN05">
+					<HoTen>Nguyễn Văn A</HoTen>
+					<DiaChi>Hà Nội</DiaChi>
+					<SoDienThoai>0985678562</SoDienThoai>
+					<NgayNhapVien>2023-01-12</NgayNhapVien>
+					<SoNgayNamVien>10</SoNgayNamVien>
+				</BenhNhan>
+				<BenhNhan MaHoSo="BN06">
+					<HoTen>Nguyễn Văn A</HoTen>
+					<DiaChi>Hà Nội</DiaChi>
+					<SoDienThoai>0985678562</SoDienThoai>
+					<NgayNhapVien>2023-01-12</NgayNhapVien>
+					<SoNgayNamVien>10</SoNgayNamVien>
+				</BenhNhan>
+			</DSBenhNhan>
+		</Khoa>
+		<Khoa>
+			<TenKhoa>Khoa Mắt</TenKhoa>
+			<TruongKhoa>Trần Văn Thanh</TruongKhoa>
+			<DSBenhNhan>
+				<BenhNhan MaHoSo="BN07">
+					<HoTen>Nguyễn Văn A</HoTen>
+					<DiaChi>Hà Nội</DiaChi>
+					<SoDienThoai>0985678562</SoDienThoai>
+					<NgayNhapVien>2023-01-12</NgayNhapVien>
+					<SoNgayNamVien>10</SoNgayNamVien>
+				</BenhNhan>
+				<BenhNhan MaHoSo="BN08">
+					<HoTen>Nguyễn Văn A</HoTen>
+					<DiaChi>Hà Nội</DiaChi>
+					<SoDienThoai>0985678562</SoDienThoai>
+					<NgayNhapVien>2023-01-12</NgayNhapVien>
+					<SoNgayNamVien>10</SoNgayNamVien>
+				</BenhNhan>
+				<BenhNhan MaHoSo="BN09">
+					<HoTen>Nguyễn Văn A</HoTen>
+					<DiaChi>Hà Nội</DiaChi>
+					<SoDienThoai>0985678562</SoDienThoai>
+					<NgayNhapVien>2023-01-12</NgayNhapVien>
+					<SoNgayNamVien>10</SoNgayNamVien>
+				</BenhNhan>
+			</DSBenhNhan>
+		</Khoa>
+	</DSKhoa>
+</BenhVien>

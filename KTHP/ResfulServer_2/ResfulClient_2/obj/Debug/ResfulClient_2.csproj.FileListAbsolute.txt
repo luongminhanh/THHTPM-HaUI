@@ -1,0 +1,10 @@
+E:\Tích hợp hệ thống phần mềm\KTHP\ResfulServer_2\ResfulClient_2\bin\Debug\ResfulClient_2.exe.config
+E:\Tích hợp hệ thống phần mềm\KTHP\ResfulServer_2\ResfulClient_2\bin\Debug\ResfulClient_2.exe
+E:\Tích hợp hệ thống phần mềm\KTHP\ResfulServer_2\ResfulClient_2\bin\Debug\ResfulClient_2.pdb
+E:\Tích hợp hệ thống phần mềm\KTHP\ResfulServer_2\ResfulClient_2\obj\Debug\ResfulClient_2.csproj.AssemblyReference.cache
+E:\Tích hợp hệ thống phần mềm\KTHP\ResfulServer_2\ResfulClient_2\obj\Debug\ResfulClient_2.Form1.resources
+E:\Tích hợp hệ thống phần mềm\KTHP\ResfulServer_2\ResfulClient_2\obj\Debug\ResfulClient_2.Properties.Resources.resources
+E:\Tích hợp hệ thống phần mềm\KTHP\ResfulServer_2\ResfulClient_2\obj\Debug\ResfulClient_2.csproj.GenerateResource.cache
+E:\Tích hợp hệ thống phần mềm\KTHP\ResfulServer_2\ResfulClient_2\obj\Debug\ResfulClient_2.csproj.CoreCompileInputs.cache
+E:\Tích hợp hệ thống phần mềm\KTHP\ResfulServer_2\ResfulClient_2\obj\Debug\ResfulClient_2.exe
+E:\Tích hợp hệ thống phần mềm\KTHP\ResfulServer_2\ResfulClient_2\obj\Debug\ResfulClient_2.pdb

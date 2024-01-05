@@ -1,0 +1,10 @@
+E:\Tích hợp hệ thống phần mềm\KTHP\LuongMinhAnh\LuongMinhAnh_call\bin\Debug\LuongMinhAnh_call.exe.config
+E:\Tích hợp hệ thống phần mềm\KTHP\LuongMinhAnh\LuongMinhAnh_call\bin\Debug\LuongMinhAnh_call.exe
+E:\Tích hợp hệ thống phần mềm\KTHP\LuongMinhAnh\LuongMinhAnh_call\bin\Debug\LuongMinhAnh_call.pdb
+E:\Tích hợp hệ thống phần mềm\KTHP\LuongMinhAnh\LuongMinhAnh_call\obj\Debug\LuongMinhAnh_call.csproj.AssemblyReference.cache
+E:\Tích hợp hệ thống phần mềm\KTHP\LuongMinhAnh\LuongMinhAnh_call\obj\Debug\LuongMinhAnh_call.Form1.resources
+E:\Tích hợp hệ thống phần mềm\KTHP\LuongMinhAnh\LuongMinhAnh_call\obj\Debug\LuongMinhAnh_call.Properties.Resources.resources
+E:\Tích hợp hệ thống phần mềm\KTHP\LuongMinhAnh\LuongMinhAnh_call\obj\Debug\LuongMinhAnh_call.csproj.GenerateResource.cache
+E:\Tích hợp hệ thống phần mềm\KTHP\LuongMinhAnh\LuongMinhAnh_call\obj\Debug\LuongMinhAnh_call.csproj.CoreCompileInputs.cache
+E:\Tích hợp hệ thống phần mềm\KTHP\LuongMinhAnh\LuongMinhAnh_call\obj\Debug\LuongMinhAnh_call.exe
+E:\Tích hợp hệ thống phần mềm\KTHP\LuongMinhAnh\LuongMinhAnh_call\obj\Debug\LuongMinhAnh_call.pdb

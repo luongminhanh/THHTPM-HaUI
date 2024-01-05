@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="HoaDonHang.xslt" ?>
+<DSKhoa xmlns="http://tempuri.org/HoaDonHang.xsd">
+	<khoa>
+		<truongkhoa>Nguyen Van A</truongkhoa>
+		<tenkhoa>Khoa Thần Kinh</tenkhoa>
+		<DSBN>
+			<benhnhan maBN="BN01">
+				<hoten>Tran Thi B</hoten>
+				<diachi>Ha Noi</diachi>
+				<sdt>0934543123</sdt>
+				<ngaynhap>2023-02-09</ngaynhap>
+				<songaynam>10</songaynam>
+			</benhnhan>
+			<benhnhan maBN="BN02">
+				<hoten>Tran Thi C</hoten>
+				<diachi>Thai Binh</diachi>
+				<sdt>0908432223</sdt>
+				<ngaynhap>2022-03-01</ngaynhap>
+				<songaynam>15</songaynam>
+			</benhnhan>
+		</DSBN>
+	</khoa>
+	<khoa>
+		<truongkhoa>Nguyen Van A</truongkhoa>
+		<tenkhoa>Khoa Nội tiết</tenkhoa>
+		<DSBN>
+			<benhnhan maBN="BN03">
+				<hoten>Tran Thi B</hoten>
+				<diachi>Ha Noi</diachi>
+				<sdt>0934543123</sdt>
+				<ngaynhap>2023-02-09</ngaynhap>
+				<songaynam>10</songaynam>
+			</benhnhan>
+			<benhnhan maBN="BN04">
+				<hoten>Tran Thi C</hoten>
+				<diachi>Thai Binh</diachi>
+				<sdt>0908432223</sdt>
+				<ngaynhap>2022-03-01</ngaynhap>
+				<songaynam>15</songaynam>
+			</benhnhan>
+			<benhnhan maBN="BN05">
+				<hoten>Tran Thi C</hoten>
+				<diachi>Thai Binh</diachi>
+				<sdt>0908432223</sdt>
+				<ngaynhap>2022-03-01</ngaynhap>
+				<songaynam>15</songaynam>
+			</benhnhan>
+		</DSBN>
+	</khoa>
+</DSKhoa>

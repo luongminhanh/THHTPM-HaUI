@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResfulServer_2", "ResfulServer_2\ResfulServer_2.csproj", "{66C74E08-7FB8-4531-B5EA-E93D9A074B5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResfulClient_2", "ResfulClient_2\ResfulClient_2.csproj", "{51F749F5-7AEF-4ADF-BD58-497D72F07BA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66C74E08-7FB8-4531-B5EA-E93D9A074B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C74E08-7FB8-4531-B5EA-E93D9A074B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C74E08-7FB8-4531-B5EA-E93D9A074B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C74E08-7FB8-4531-B5EA-E93D9A074B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F749F5-7AEF-4ADF-BD58-497D72F07BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F749F5-7AEF-4ADF-BD58-497D72F07BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F749F5-7AEF-4ADF-BD58-497D72F07BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F749F5-7AEF-4ADF-BD58-497D72F07BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A9EF60F-DD32-4E1B-B25A-D39A1A3AAD78}
+	EndGlobalSection
+EndGlobal

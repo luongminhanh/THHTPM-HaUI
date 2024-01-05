@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HoaDonHang"
+    targetNamespace="http://tempuri.org/HoaDonHang.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/HoaDonHang.xsd"
+    xmlns:mstns="http://tempuri.org/HoaDonHang.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="maType">
+		<xs:restriction base="xs:ID">
+			<xs:minLength value="1"></xs:minLength>
+			<xs:maxLength value="6"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="tenType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="2"></xs:minLength>
+			<xs:maxLength value="40"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="diachiType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="6"></xs:minLength>
+			<xs:maxLength value="100"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="sdtType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{10}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ngayType">
+		<xs:restriction base="xs:date"></xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="soType">
+		<xs:restriction base="xs:int"></xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="benhnhanType">
+		<xs:sequence>
+			<xs:element name="HoTen" type="tenType"></xs:element>
+			<xs:element name="DiaChi" type="diachiType"></xs:element>
+			<xs:element name="SoDienThoai" type="sdtType"></xs:element>
+			<xs:element name="NgayNhapVien" type="ngayType"></xs:element>
+			<xs:element name="SoNgayNamVien" type="soType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaHoSo" type="maType"></xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="dsbenhnhanType">
+		<xs:sequence>
+			<xs:element name="BenhNhan" type="benhnhanType" minOccurs="1" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="khoaType">
+		<xs:sequence>
+			<xs:element name="TenKhoa" type="tenType"></xs:element>
+			<xs:element name="TruongKhoa" type="tenType"></xs:element>
+			<xs:element name="DSBenhNhan" type="dsbenhnhanType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="dsKhoaType">
+		<xs:sequence>
+			<xs:element name="Khoa" type="khoaType" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="benhvienType">
+		<xs:sequence>
+			<xs:element name="TenBenhVien" type="tenType"></xs:element>
+			<xs:element name="DSKhoa" type="dsKhoaType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="BenhVien" type="benhvienType"></xs:element>
+</xs:schema>

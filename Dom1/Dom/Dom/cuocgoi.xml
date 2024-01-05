@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<thongtincuocgoi>
+	<cuocgoi sodien="111111" chinhanh="Dong Da">
+		<sogoiden>2222</sogoiden>
+		<ngaygoi>1998-12-01</ngaygoi>
+		<sophut>2</sophut>
+	</cuocgoi>
+	<cuocgoi sodien="123244" chinhanh="Hoàn kiếm">
+		<sogoiden>2222</sogoiden>
+		<ngaygoi>1998-12-01</ngaygoi>
+		<sophut>5</sophut>
+	</cuocgoi>
+</thongtincuocgoi>

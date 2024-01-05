@@ -1,0 +1,20 @@
+D:\Dom\bin\Debug\Dom.exe.config
+D:\Dom\bin\Debug\Dom.exe
+D:\Dom\bin\Debug\Dom.pdb
+D:\Dom\obj\Debug\Dom.csproj.AssemblyReference.cache
+D:\Dom\obj\Debug\Dom.Properties.Resources.resources
+D:\Dom\obj\Debug\Dom.csproj.GenerateResource.cache
+D:\Dom\obj\Debug\Dom.csproj.CoreCompileInputs.cache
+D:\Dom\obj\Debug\Dom.exe
+D:\Dom\obj\Debug\Dom.pdb
+D:\Dom\obj\Debug\Dom.Form1.resources
+E:\Tích hợp hệ thống phần mềm\Dom2\Dom\bin\Debug\Dom.exe.config
+E:\Tích hợp hệ thống phần mềm\Dom2\Dom\bin\Debug\Dom.exe
+E:\Tích hợp hệ thống phần mềm\Dom2\Dom\bin\Debug\Dom.pdb
+E:\Tích hợp hệ thống phần mềm\Dom2\Dom\obj\Debug\Dom.csproj.AssemblyReference.cache
+E:\Tích hợp hệ thống phần mềm\Dom2\Dom\obj\Debug\Dom.Form1.resources
+E:\Tích hợp hệ thống phần mềm\Dom2\Dom\obj\Debug\Dom.Properties.Resources.resources
+E:\Tích hợp hệ thống phần mềm\Dom2\Dom\obj\Debug\Dom.csproj.GenerateResource.cache
+E:\Tích hợp hệ thống phần mềm\Dom2\Dom\obj\Debug\Dom.csproj.CoreCompileInputs.cache
+E:\Tích hợp hệ thống phần mềm\Dom2\Dom\obj\Debug\Dom.exe
+E:\Tích hợp hệ thống phần mềm\Dom2\Dom\obj\Debug\Dom.pdb

@@ -1,0 +1,10 @@
+E:\Tích hợp hệ thống phần mềm\KTHP\OnTap_Final\Client\bin\Debug\Client.exe.config
+E:\Tích hợp hệ thống phần mềm\KTHP\OnTap_Final\Client\bin\Debug\Client.exe
+E:\Tích hợp hệ thống phần mềm\KTHP\OnTap_Final\Client\bin\Debug\Client.pdb
+E:\Tích hợp hệ thống phần mềm\KTHP\OnTap_Final\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+E:\Tích hợp hệ thống phần mềm\KTHP\OnTap_Final\Client\obj\Debug\Client.Form1.resources
+E:\Tích hợp hệ thống phần mềm\KTHP\OnTap_Final\Client\obj\Debug\Client.Properties.Resources.resources
+E:\Tích hợp hệ thống phần mềm\KTHP\OnTap_Final\Client\obj\Debug\Client.csproj.GenerateResource.cache
+E:\Tích hợp hệ thống phần mềm\KTHP\OnTap_Final\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+E:\Tích hợp hệ thống phần mềm\KTHP\OnTap_Final\Client\obj\Debug\Client.exe
+E:\Tích hợp hệ thống phần mềm\KTHP\OnTap_Final\Client\obj\Debug\Client.pdb
